@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Calvin Lee's links</title>
@@ -28,13 +27,13 @@
     }
 
     .name {
-      color: #fffffe;
+      color: #000000;
       display: flex;
       justify-content: center;
     }
 
     .social-icons a {
-      color: #fffffe;
+      color: #000000;
       text-decoration: none
     }
 
@@ -71,37 +70,62 @@
     }
 
   </style>
+  <title>Background</title>
+  <style>
+    .background--custom {
+      justify-content: center;
+      background: linear-gradient(90deg, #6489F1, #9A6ADB, #6BDBF0);
+      background-size: 300% 300%;
+      animation: gradient 4s alternate infinite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 </head>
 
 <body>
-  <div class="items">
-    <div class="banner">
-      <img src="profilepic.jpeg" alt="Calvin Lee headshot" class="banner-image">
+  <div class="background--custom">
+    <div class="items">
+      <div class="banner">
+        <img src="profilepic.jpeg" alt="Calvin Lee headshot" class="banner-image">
+      </div>
+
+      <div class="name">
+        Calvin Lee
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/Strongbrother1" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/calvin-lee-12966b200/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com/calvinmlee/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://twitter.com/StrongbrotherRR" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
     </div>
-
-    <div class="name">
-      Calvin Lee
-    </div>
-
-    <div class="social-icons">
-      <a href="https://github.com/Strongbrother1" target="_blank">
-        GitHub
-      </a>
-
-      <a href="https://www.linkedin.com/in/calvin-lee-12966b200/" target="_blank">
-        LinkedIn
-      </a>
-
-      <a href="https://www.instagram.com/calvinmlee/" target="_blank">
-        Instagram
-      </a>
-
-      <a href="https://twitter.com/StrongbrotherRR" target="_blank">
-        Twitter
-      </a>
-    </div>
-
-    <div class="link">
+    <!-- <div class="link">
       <img class="thumbnail"
         src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
 
@@ -156,4 +180,4 @@
   </div>
 </body>
 
-</html>
+</html> -->
